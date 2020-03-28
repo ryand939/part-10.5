@@ -55,7 +55,7 @@ namespace part_10._5
 
 		private void textBox1_TextChanged(object sender, EventArgs e)
 		{
-			lblCurrentSelection.Text = "";
+			lblCurrentSelection.Text = ""; 
 			string search = txtSearch.Text.ToLower().Trim();
 			lstNames.Items.Clear();
 
